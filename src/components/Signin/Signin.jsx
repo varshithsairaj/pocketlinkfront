@@ -72,7 +72,7 @@ const Signin = () => {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-l from-purple-100 to-purple-200">
+    <div className="flex items-center justify-center min-h-screen bg-gradient-to-l from-white to-slate-800">
       <div className="relative w-[800px] max-w-full min-h-[500px] bg-white shadow-lg rounded-lg overflow-hidden">
         <div className="flex w-full h-full">
           <div
@@ -126,7 +126,7 @@ const Signin = () => {
                 </a>
                 <button
                   onClick={handleSignin}
-                  className="bg-purple-600 text-white px-6 py-2 mt-4 rounded-full"
+                  className="bg-slate-950 text-white px-6 py-2 mt-4 rounded-full transition-all duration-300 hover:scale-105"
                 >
                   Sign In
                 </button>
@@ -175,7 +175,7 @@ const Signin = () => {
                 />
                 <button
                   onClick={handleSignup}
-                  className="bg-purple-600 text-white px-6 py-2 mt-4 rounded-full"
+                  className="bg-slate-950 text-white px-6 py-2 mt-4 rounded-full transition-all duration-300 hover:scale-105"
                 >
                   Sign Up
                 </button>
@@ -184,7 +184,7 @@ const Signin = () => {
           </div>
         </div>
         <div
-          className={`absolute top-0 left-1/2 w-1/2 h-full bg-gradient-to-r from-purple-500 to-purple-600 flex items-center justify-center transition-transform duration-500 ease-in-out ${
+          className={`absolute top-0 left-1/2 w-1/2 h-full bg-gradient-to-r from-slate-950 to-slate-950 flex items-center justify-center transition-transform duration-500 ease-in-out ${
             isSignUp ? "-translate-x-full" : "translate-x-0"
           }`}
         >

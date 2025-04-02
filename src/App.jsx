@@ -23,6 +23,7 @@ const App = () => {
             </>
           }
         />
+        <Route path="/hero" element={<Hero />} /> {/* Added Hero route */}
         <Route path="/signin" element={<Signin />} />
         <Route path="/dashboard" element={<Dashboard />} /> {/* Add Dashboard route */}
       </Routes>

@@ -26,3 +26,10 @@ If you are developing a production application, we recommend using TypeScript an
 
 ### 🗃️ Database
 - **MongoDB** – NoSQL, document-oriented database chosen for its flexibility and scalability in handling varied data structures.
+
+## 📑 Documentation
+
+You can view and download the full documentation from the following link:
+
+[Download the Documentation](./pocketlinkfront/ProjectReport(1).pdf)
+

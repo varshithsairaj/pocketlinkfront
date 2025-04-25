@@ -31,5 +31,5 @@ If you are developing a production application, we recommend using TypeScript an
 
 You can view and download the full documentation from the following link:
 
-[Download the Documentation](./pocketlinkfront/ProjectReport(1).pdf)
+[Download the Documentation](./pocketlinkfront/Project%20Report%20(1).pdf)
 

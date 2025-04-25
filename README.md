@@ -10,3 +10,19 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🧱 Technology Stack
+
+### 🚀 Frontend
+- **Tailwind CSS** – Utility-first CSS framework for rapid UI development and consistent styling.  
+- **React.js** – JavaScript library for building dynamic, component-based user interfaces.  
+- **Framer Motion** – Library for implementing smooth and engaging animations in the React application.  
+- **Masonry** – JavaScript grid layout library for responsive, optimal element positioning (like stones in a wall).
+
+### 🛠️ Backend
+- **Node.js** – JavaScript runtime environment used for building the server-side application.  
+- **Express.js** – Minimal and flexible framework for creating APIs and handling server-side logic.  
+- **TypeScript** – Strongly typed language used to enhance code reliability and maintainability in server-side logic.
+
+### 🗃️ Database
+- **MongoDB** – NoSQL, document-oriented database chosen for its flexibility and scalability in handling varied data structures.

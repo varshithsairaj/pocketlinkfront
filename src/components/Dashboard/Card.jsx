@@ -87,7 +87,7 @@ export function Card({ title, link, type }) {
 
   switch (normalizedType) {
     case "youtube":
-      console.log("Rendering YouTube content"); // Debugging YouTube case
+      console.log("Rendering YouTube content"); 
       content = (
         <iframe
           className="w-full h-fit"
@@ -133,7 +133,7 @@ export function Card({ title, link, type }) {
   }
 
   return (
-    <div className="bg-white font-light border rounded-md shadow-md border-gray-200 break-inside-avoid">
+    <div className="bg-white font-light border rounded-md shadow-md border-gray-200 break-inside-avoid ">
       <div className="p-2 flex justify-between items-center">
         <div>{title}</div>
         <div>
@@ -148,3 +148,5 @@ export function Card({ title, link, type }) {
 }
 
 export default Card;
+
+

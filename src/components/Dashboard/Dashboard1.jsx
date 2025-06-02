@@ -64,6 +64,7 @@ export default function Dashboard1({ setShowCollections}) {
         }
       );
       setShowCollections(false);
+      window.location.reload(); 
     } catch (error) {
       console.error("Error adding content:", error);
     }
